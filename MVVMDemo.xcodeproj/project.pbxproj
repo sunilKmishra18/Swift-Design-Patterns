@@ -15,6 +15,9 @@
 		BF31C0C7266768290093EDC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF31C0C5266768290093EDC4 /* LaunchScreen.storyboard */; };
 		BF31C0D22667682A0093EDC4 /* MVVMDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF31C0D12667682A0093EDC4 /* MVVMDemoTests.swift */; };
 		BF31C0DD2667682A0093EDC4 /* MVVMDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF31C0DC2667682A0093EDC4 /* MVVMDemoUITests.swift */; };
+		BF31C0EB26676F670093EDC4 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF31C0EA26676F670093EDC4 /* Models.swift */; };
+		BF31C0ED26676FBE0093EDC4 /* PersonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF31C0EC26676FBE0093EDC4 /* PersonTableViewCell.swift */; };
+		BF31C0EF2667754F0093EDC4 /* PersonTableCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF31C0EE2667754F0093EDC4 /* PersonTableCellViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		BF31C0D82667682A0093EDC4 /* MVVMDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MVVMDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF31C0DC2667682A0093EDC4 /* MVVMDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMDemoUITests.swift; sourceTree = "<group>"; };
 		BF31C0DE2667682A0093EDC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF31C0EA26676F670093EDC4 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		BF31C0EC26676FBE0093EDC4 /* PersonTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonTableViewCell.swift; sourceTree = "<group>"; };
+		BF31C0EE2667754F0093EDC4 /* PersonTableCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonTableCellViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +112,9 @@
 				BF31C0C3266768290093EDC4 /* Assets.xcassets */,
 				BF31C0C5266768290093EDC4 /* LaunchScreen.storyboard */,
 				BF31C0C8266768290093EDC4 /* Info.plist */,
+				BF31C0EA26676F670093EDC4 /* Models.swift */,
+				BF31C0EC26676FBE0093EDC4 /* PersonTableViewCell.swift */,
+				BF31C0EE2667754F0093EDC4 /* PersonTableCellViewModel.swift */,
 			);
 			path = MVVMDemo;
 			sourceTree = "<group>";
@@ -261,6 +270,9 @@
 				BF31C0BF266768270093EDC4 /* ViewController.swift in Sources */,
 				BF31C0BB266768270093EDC4 /* AppDelegate.swift in Sources */,
 				BF31C0BD266768270093EDC4 /* SceneDelegate.swift in Sources */,
+				BF31C0ED26676FBE0093EDC4 /* PersonTableViewCell.swift in Sources */,
+				BF31C0EF2667754F0093EDC4 /* PersonTableCellViewModel.swift in Sources */,
+				BF31C0EB26676F670093EDC4 /* Models.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
